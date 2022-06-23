@@ -1,0 +1,192 @@
+.warning
+{   
+    //width: 100%;
+    color: red;
+}
+
+
+.flex
+{
+    display: inline;
+}
+
+.flexbox
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    &-column
+    {
+       flex-direction: column;
+    }
+    
+    &-width100
+    {
+        width: 100%;
+    }
+    &-width50
+    {
+        width: 50%;
+    }
+    &-width
+    {
+        width: 20%;
+    }
+}
+
+.break
+{
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.centre
+{
+    &-vert
+    {
+        align-content: center;
+        justify-content: center;
+    }
+    &-left
+    {
+        margin-left: auto;
+    }
+    
+    &-right
+    {
+        margin-right: auto;
+    }
+
+    &-lr
+    {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &-text
+    {
+        text-align: center;
+    }
+}
+
+.margin
+{
+    &-vert1
+    {
+        margin: 1rem auto;
+    }
+
+    &-vert3
+    {
+        margin: 3rem auto;
+    }
+
+    &-mid3
+    {
+        margin: 0 3rem;
+    }
+
+    &-mid1
+    {
+        margin: 0 1rem;
+    }
+    
+    &-mid4px
+    {
+        margin: 0 0.1875rem;
+    }
+
+}
+
+.button
+{
+    
+    input, a
+    {
+        border: none;
+        border-radius: 5rem;
+
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        margin: 1rem auto;
+
+        background-image: linear-gradient(to bottom, $btn_gc1, $btn_gc2, $btn_gc3);
+        background-size: 100% 150%;
+                
+        color: $btn_text;
+        
+        transition: background-position 300ms 50ms ease-in-out;
+    }
+    
+    :hover
+    {
+        background-position-y: 100%; 
+    }
+}
+
+.top
+{
+    position: fixed;
+    box-sizing: border-box;
+
+    border-radius: 4rem;
+    cursor: pointer;
+
+    height: 3rem;
+    width: 3rem;
+    z-index: 1;
+
+    top: 40vw;
+    left: 90%;
+
+    opacity: 60%;
+    background-image: url("../images/top.jpg");
+    background-size: cover;
+    
+
+    :hover
+    {
+        opacity: 30%;
+    }
+}
+
+.width
+{
+    &-num4
+    {
+        input
+        {
+            width: 4rem;
+        }   
+    }
+
+    &-num7
+    {
+        input
+        {
+            width: 7rem;
+        }
+    }
+
+    &-boxmid
+    {   
+        flex-basis: 3%;
+    }
+
+    &-box
+    {   
+        flex-basis: 33%;
+    }
+    
+    &-box20
+    {   
+        flex-basis: 20%;
+    }
+}
+
+.invisible
+{
+    display: none;
+}

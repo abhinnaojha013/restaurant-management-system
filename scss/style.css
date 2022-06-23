@@ -1,0 +1,214 @@
+.border {
+  border: red solid;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.375rem;
+}
+
+body a, body input {
+  text-decoration: none;
+  font-size: 1.375rem;
+  font-family: Helvetica, sans-serif;
+}
+
+body select, body option {
+  font-size: 1.375rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.warning {
+  color: red;
+}
+
+.flex {
+  display: inline;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flexbox-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flexbox-width100 {
+  width: 100%;
+}
+
+.flexbox-width50 {
+  width: 50%;
+}
+
+.flexbox-width {
+  width: 20%;
+}
+
+.break {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.centre-vert {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.centre-left {
+  margin-left: auto;
+}
+
+.centre-right {
+  margin-right: auto;
+}
+
+.centre-lr {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centre-text {
+  text-align: center;
+}
+
+.margin-vert1 {
+  margin: 1rem auto;
+}
+
+.margin-vert3 {
+  margin: 3rem auto;
+}
+
+.margin-mid3 {
+  margin: 0 3rem;
+}
+
+.margin-mid1 {
+  margin: 0 1rem;
+}
+
+.margin-mid4px {
+  margin: 0 0.1875rem;
+}
+
+.button input, .button a {
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b80000), color-stop(#840000), to(#330000));
+  background-image: linear-gradient(to bottom, #b80000, #840000, #330000);
+  background-size: 100% 150%;
+  color: #ffffff;
+  -webkit-transition: background-position 300ms 50ms ease-in-out;
+  transition: background-position 300ms 50ms ease-in-out;
+}
+
+.button :hover {
+  background-position-y: 100%;
+}
+
+.top {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  z-index: 1;
+  top: 40vw;
+  left: 90%;
+  opacity: 60%;
+  background-image: url("../images/top.jpg");
+  background-size: cover;
+}
+
+.top :hover {
+  opacity: 30%;
+}
+
+.width-num4 input {
+  width: 4rem;
+}
+
+.width-num7 input {
+  width: 7rem;
+}
+
+.width-boxmid {
+  -ms-flex-preferred-size: 3%;
+      flex-basis: 3%;
+}
+
+.width-box {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+.width-box20 {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.invisible {
+  display: none;
+}
+
+.mainimage {
+  width: 100%;
+  background-image: url("../images/001.jpg");
+  background-size: cover;
+}
+
+.headerimage {
+  width: 100%;
+  background-image: url("../images/001.jpg");
+  background-size: cover;
+}
+
+.logoimage {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("../images/logo.png");
+  background-size: contain;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+.restaurant_name h1 a {
+  -webkit-text-stroke: 0.125rem #b80000;
+  font-size: 4rem;
+  color: white;
+}
+
+.slogan {
+  margin: 0 0 0 13%;
+  color: white;
+  -webkit-text-stroke: 0.125rem black;
+  font-family: Impact, sans-serif;
+}
+
+.heading {
+  text-decoration: underline;
+  color: darkgreen;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+body
+{
+    //background-image: linear-gradient(to bottom, $bg_red1, $bg_red1, $bg_red2, white);
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 1.375rem;
+
+    a, input
+    {
+        text-decoration: none; 
+        font-size: 1.375rem;
+        font-family: Helvetica, sans-serif;   
+    }
+    select, option
+    {
+        font-size: 1.375rem;
+        font-family: Helvetica, sans-serif;   
+    }
+        
+}

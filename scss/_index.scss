@@ -1,0 +1,53 @@
+.mainimage
+{
+    width: 100%;
+    
+    background-image: url("../images/001.jpg");
+    background-size: cover;
+}
+
+.headerimage
+{
+    width: 100%;
+    
+    background-image: url("../images/001.jpg");
+    background-size: cover;
+}
+
+.logoimage
+{
+    width: 10rem;
+    height: 10rem;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.restaurant_name
+{
+ 
+    h1
+    {
+       a
+       {
+           -webkit-text-stroke: 0.125rem #b80000;
+            font-size: 4rem;       
+            color: white;
+    
+        }
+    }
+}
+
+.slogan
+{
+    margin: 0 0 0 13%;
+    color: white;
+    -webkit-text-stroke: 0.125rem black;
+    font-family: Impact, sans-serif;
+}
+
+.heading
+{
+    text-decoration: underline;
+    color: darkgreen;
+}
